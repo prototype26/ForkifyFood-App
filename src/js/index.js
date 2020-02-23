@@ -78,7 +78,7 @@ const controlRecipe =async ()=>{
         state.recipe.calcTime();
         state.recipe.calcServings();    
         //render UI for results
-        console.log(state.recipe);
+        
         }catch(error){
             alert('error fetching recipe');
         }
